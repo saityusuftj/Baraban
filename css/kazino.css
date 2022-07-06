@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../img/kazino.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	user-select: none;
+}
+.kazino {
+	border: 4px solid white;
+	border-radius: 15px 0px ;
+	padding: 20px;
+	box-shadow: 0px 0px 20px 5px white;
+}
+
+h1 {
+	color: white;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px black, 0px 0px 10px white;
+}
+
+h2 {
+	text-align: center;
+	color: red;
+	margin-bottom: 10px;
+}
+
+img {
+	width: 300px;
+	display: none;
+}
+
+input {
+	width: 97% ;
+	height: 30px;
+	font-size: 20px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+	box-shadow: 0px 0px 10px 3px white;
+
+}
+
+#labels {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+label {
+	font-size: 100px;
+	border: 3px solid white;
+	padding: 0px 12px;
+	color: white;
+	box-shadow: 0px 0px 10px 3px white;
+}
+
+.button {
+	width: 190px;
+	margin: auto;
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	margin-top: 20px;
+	background-color: white;
+	border: 0px;
+	border-radius: 5px 0px ;
+	padding: 0px 15px;
+	transition: ease .4s all;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px 3px white;
+}
+
+button:hover {
+	box-shadow: 0px 0px 10px 3px white;
+	transform: scale(1.09);
+
+}
+
+#reset {
+	display: none;
+}
